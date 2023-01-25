@@ -5,7 +5,7 @@ const users = {
     record: {
       100002: {
         myDate: "22/12/2022",
-        amount: 7000,
+        amount: 8000,
         type: "deposit",
       },
       100001: {
