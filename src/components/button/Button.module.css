@@ -1,0 +1,10 @@
+.btn {
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.active {
+  background: inherit;
+}

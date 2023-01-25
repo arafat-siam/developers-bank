@@ -1,0 +1,21 @@
+.activeList {
+  background: #000;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 5px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+}
+
+.list {
+  /* border: 0.5px solid rgba(0, 0, 0, 0.418); */
+  color: black;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 5px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+}

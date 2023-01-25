@@ -1,0 +1,40 @@
+.radio {
+  display: none;
+}
+
+.radio__label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 0px 5px;
+}
+
+.label_red {
+  box-shadow: 1px 1px 5px #ddd;
+}
+
+.label_green {
+  box-shadow: 1px 1px 5px #ddd;
+}
+
+.radio:checked + .radio__label.label_green {
+  background-color: rgb(34 197 94);
+  box-shadow: 1px 1px 5px #ddd;
+  border: none;
+  color: white;
+}
+.radio:checked + .radio__label.label_red {
+  background-color: rgb(239 68 68);
+  box-shadow: 1px 1px 5px #ddd;
+  border: none;
+  color: white;
+}
+
+.updateBtn {
+  display: block;
+  padding: 5px 20px;
+  background: #000;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
